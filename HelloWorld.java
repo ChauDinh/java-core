@@ -32,5 +32,28 @@ public class HelloWorld {
     System.out.println(c);
     System.out.println(d);
     System.out.println(str);
+
+    // Reference types: Array, class, interface
+
+    // Operator
+    int number = 1;
+    System.out.println(number++);
+    System.out.println(++number);
+    System.out.println(number);
+    System.out.println(number--);
+    System.out.println(--number);
+    System.out.println(number);
+
+    // Instance of
+    // Chỉ dùng cho các kiểu dữ liệu tham chiếu
+    // biến instanceof class/interface
+    String address = "24 Hoang Hoa Tham";
+    Boolean isString = address instanceof String;
+    System.out.println(isString);
+
+    int first = 1;
+    int second = 2;
+    int third = first > second ? first : second;
+    System.out.println(third);
   }
 }
