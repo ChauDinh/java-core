@@ -1,6 +1,6 @@
 public class Operation {
   public static void main(String[] args) {
-    int a = 5, b = 2, c = 1;
+    // int a = 5, b = 2, c = 1;
     // double da = a, db = b;
     // double result = 0;
 
