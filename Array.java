@@ -23,5 +23,9 @@ public class Array {
       }
       System.out.println();
     }
+
+    for (int array:a) {
+      System.out.println(array);
+    }
   }
 }
