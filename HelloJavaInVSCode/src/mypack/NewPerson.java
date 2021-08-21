@@ -1,7 +1,8 @@
+package mypack;
 public class NewPerson {
-  public String name;
-  public int age;
-  public float height;
+  protected String name;
+  protected int age;
+  protected float height;
 
   public NewPerson(String name, int age, float height) {
     this.name = name;
@@ -13,7 +14,7 @@ public class NewPerson {
     System.out.println(this.name + " can eat " + foodName);
   }
 
-  public int getAge() {
+  protected int getAge() {
     return this.age;
   }
 
